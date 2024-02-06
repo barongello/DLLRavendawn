@@ -4,6 +4,10 @@ A simple DLL that, when injected to Ravendawn's process, do a detour to get the 
 
 Just a proof of concept
 
-## Injecting
+## Compile
+
+`cl /LD DLLRavendawn.cpp User32.lib DbgHelp.lib`
+
+## Inject
 
 Just use the [DLLInjector](https://github.com/barongello/DLLInjector) that can be found in my repositories
